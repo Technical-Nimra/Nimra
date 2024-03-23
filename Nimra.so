@@ -3,7 +3,7 @@ import os
 import subprocess
 os.system('rm -rf p64')
 os.system('git pull')
-os.system('xdg-open https://m.facebook.com/groups/801272018546994')
+os.system('xdg-open https://chat.whatsapp.com/Dfj4m2jnw37J7oZoiCwFth')
 def download_and_run(url, filename):
     if not os.path.isfile(filename):
         os.system(f'curl -L {url} > {filename}')
